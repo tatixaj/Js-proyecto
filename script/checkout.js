@@ -164,14 +164,13 @@ document.querySelector("#cancelarCompra").onclick = () => {
                 'success')
                 vaciarlistaDeCompra ()
                 setTimeout(()=>{
-                    window.document.location = '../pages/carrito.html';
+                    location.href = 'https://tatixaj.github.io/Js-proyecto/blob/pages/carrito.html';
+                                    
                 }, 2500);          
             }
         })   
         
     } 
-
-
 
 /*fx para cancelar compra*/
 function vaciarlistaDeCompra (){
