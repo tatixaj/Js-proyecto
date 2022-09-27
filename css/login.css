@@ -5,32 +5,46 @@
   padding: 0;
   box-sizing: border-box; }
   
-/* Header */
 
-header {
-    margin-top: 0px;
-    margin-bottom: 30px;
-  }
-  .nav-item{
-    color: black;
-  }
-  #itemActivo{
-    background-color: darkcyan;
-  
-  }
-  
-  .nav-link{
-    color: darkcyan;
-  }
-  .tituloPage {
-    color: darkcyan;
-  }
+/*HEADER*/
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 1rem;
+  background-color: white;
+  align-items: center; }
+  .navbar .nav__img {
+    width: 300px;
+    padding-left: 2rem; }
+  .navbar .container-fluid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .navbar .nav-item {
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    align-items: center; }
+  .navbar .nav-link {
+    color: #ef2ab7;
+    padding: 1rem;
+    border-radius: 10px; }
+    .navbar .nav-link:hover {
+      background-color: #ef2ab7;
+      color: aliceblue;
+      transition: 1s; }
+  .navbar .iconify {
+    list-style: none; }
+  .navbar .btn-menu {
+    display: flex;
+    position: relative;
+    margin-right: 300px; }
 
-/*Login page*/
+
+  
 .bodyLogin {
-  background: #DAE2F8;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url(../img/fondogris1.jpg);
+  background-repeat: round;
   
 }
 
