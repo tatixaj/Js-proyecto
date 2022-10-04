@@ -142,8 +142,6 @@ document.querySelector("#cancelarCompra").onclick = () => {
     })
 }
 
-
-
     document.querySelector("#realizarCompra").onclick = () => {
         Swal.fire({
             title: 'Quieres realizar tu compra',
