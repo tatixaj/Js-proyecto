@@ -14,6 +14,7 @@ function entrar(){
    localStorage.setItem('password', pass)
    localStorage.setItem('email', email)
    window.document.location = 'https://tatixaj.github.io/Js-proyecto/pages/productos.html'; 
+   
     
 }
 

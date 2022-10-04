@@ -23,7 +23,7 @@ listaObj.forEach(itemCarrito => {
                         <div class="col-8">
                         <div class="row"><b>$${itemCarrito.precio}</b></div>
                         <div class="row text-muted">${itemCarrito.nombre}</div>
-                        <div class="row">Cant: ${itemCarrito.cantidad}</div>
+                        <div class="row">Cantidad: ${itemCarrito.cantidad}</div>
                         <hr>` 
     tarjetaBody.appendChild(div);
 
