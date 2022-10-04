@@ -164,7 +164,7 @@ document.querySelector("#cancelarCompra").onclick = () => {
                 'success')
                 vaciarlistaDeCompra ()
                 setTimeout(()=>{
-                    location.href = 'https://tatixaj.github.io/Js-proyecto/blob/pages/carrito.html';
+                    location.href = 'https://tatixaj.github.io/Js-proyecto/pages/carrito.html';
                                     
                 }, 2500);          
             }
