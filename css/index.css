@@ -73,7 +73,7 @@ footer p{
 
 /*PRODUCTOS*/
 .main__card {
-  background-image: url(../img/fondogris1.jpg); 
+  background-image: url(../img/pinceladas.jpg); 
   }
 
 .form-control {
@@ -177,7 +177,7 @@ a {
 
 /*Carrito*/
 main .main__card {
-  background-image: url(../../img/fondo.jpg); }
+  background-image: url(../../img/pinceladas.jpg); }
 
 .card__final {
   max-width: 1000px;
@@ -329,11 +329,14 @@ img.img__logo {
 div.row{
   font-size: large;
 }
+
+
+
 /*Medias*/
-/*medias*/
+
 @media screen and (max-width: 999px) {
   .main__card {
-    background-image: url(../../img/fondogris.png); }
+    background-image: url(../../img/pinceladas.jpg); }
   .form-control {
     width: 50%;
     margin: 0 auto; }

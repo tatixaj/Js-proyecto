@@ -121,7 +121,7 @@ numeroSeguridad.addEventListener('keydown', (e)=>{
 document.querySelector("#cancelarCompra").onclick = () => {
     Swal.fire({
         title: 'Quieres cancelar tu compra',
-        text: "No podras revertir esta accion!",
+        text: "No podrás revertir esta acción!",
         icon: 'warning',
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
@@ -147,7 +147,7 @@ document.querySelector("#cancelarCompra").onclick = () => {
     document.querySelector("#realizarCompra").onclick = () => {
         Swal.fire({
             title: 'Quieres realizar tu compra',
-            text: "No podras revertir esta accion!",
+            text: "No podrás revertir esta acción!",
             imageUrl: 'https://media2.giphy.com/media/72EjRhsNqkzDiwE6TC/giphy.gif?cid=ecf05e477gw15j07un1tow4ria3a0gen9myqm1x1t6u4ptp4&rid=giphy.gif&ct=g',
             imageWidth: 400,
             imageHeight: 200,
