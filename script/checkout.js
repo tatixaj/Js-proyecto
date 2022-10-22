@@ -162,8 +162,7 @@ document.querySelector("#cancelarCompra").onclick = () => {
                 'success')
                 vaciarlistaDeCompra ()
                 setTimeout(()=>{
-                    location.href = 'https://tatixaj.github.io/Js-proyecto/pages/carrito.html';
-                                    
+                    window.document.location = '../pages/carrito.html';             
                 }, 2500);          
             }
         })   
